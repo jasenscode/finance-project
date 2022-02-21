@@ -1,9 +1,10 @@
 import "./App.scss";
+import TextLogo from "./components/TextLogo/TextLogo";
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Working</h1>
+      <TextLogo logoText="share seek" />
     </div>
   );
 };
